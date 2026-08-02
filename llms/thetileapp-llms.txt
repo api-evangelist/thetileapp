@@ -1,0 +1,23 @@
+# Tile (thetileapp)
+
+> Tile is a consumer Bluetooth-tracker company (Tile Mate, Pro, Slim, and Sticker
+> devices plus the "Find" crowd-locate network) added to the API Evangelist network
+> as a portfolio-lead stub. Tile was acquired by Life360 in 2021. Tile does not
+> publish an official public developer API or developer portal; this profile
+> captures the company's public web and security-program surface only.
+
+## Company
+- Website: https://www.thetileapp.com
+- Support / Help Center: https://support.thetileapp.com/hc/en-us
+- Terms of Service: https://www.thetileapp.com/en-us/terms-of-service
+- Privacy Policy: https://www.thetileapp.com/en-us/privacy-policy
+
+## Security
+- security.txt: https://thetileapp.com/.well-known/security.txt
+- Vulnerability disclosure / bug bounty: https://hackerone.com/life360
+- Security contact: responsibledisclosure@life360.com
+
+## Notes for agents
+- There is no official Tile developer API, OpenAPI spec, SDK, or MCP server. Third-party
+  community libraries (e.g. pytile, tile.net) exist but wrap Tile's private, unofficial
+  app API and are not first-party or supported.

@@ -1,7 +1,28 @@
 aid: thetileapp
-name: thetileapp
-description: thetileapp is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetileapp.png
+name: Tile (thetileapp)
+description: >-
+  Tile is a consumer Bluetooth-tracker company whose Tile Mate, Pro, Slim, and
+  Sticker devices help people find everyday items such as keys, wallets, bags,
+  and phones, backed by the crowd-sourced Tile "Find" network that anonymously
+  relays location when another Tile user passes a lost item. Founded in 2012,
+  Tile was acquired by Life360 in 2021 and now operates as part of the Life360
+  family-safety platform. Tile publishes consumer apps for iOS and Android and a
+  support and legal surface, but does not offer an official public developer API,
+  developer portal, or SDK; only third-party community libraries wrap its private
+  app API. This API Evangelist profile captures the company's public web and
+  security-program surface. Surfaced as a portfolio company of Slow Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/thetileapp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Bluetooth
+- Location
+- Tracking
+- Consumer Electronics
+- IoT
+- Find My
+- Life360
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/thetileapp-vulnerability-disclosure.yml
+- type: Security
+  url: https://hackerone.com/life360
+- type: SecurityTxt
+  url: well-known/thetileapp-well-known.yml
+- type: DomainSecurity
+  url: security/thetileapp-domain-security.yml
+- type: WellKnown
+  url: well-known/thetileapp-well-known.yml
+- type: LLMsTxt
+  url: llms/thetileapp-llms.txt
+- type: Support
+  url: https://support.thetileapp.com/hc/en-us
+- type: TermsOfService
+  url: https://www.thetileapp.com/en-us/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.thetileapp.com/en-us/privacy-policy
 - type: Website
   url: https://thetileapp.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
