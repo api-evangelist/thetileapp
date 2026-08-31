@@ -60,6 +60,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/life360/
+  name: Life360
+  x-relationship: acquired
+  x-evidence: "Founded in 2012, Tile was acquired by Life360 in 2021 and now operates as part of the Life360 family-safety platform."
 - type: VulnerabilityDisclosure
   url: security/thetileapp-vulnerability-disclosure.yml
 - type: Security
