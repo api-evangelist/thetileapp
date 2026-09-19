@@ -18,24 +18,22 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://thetileapp.com
+    status: 301
+    note: declared website redirects to https://www.life360.com/ — a different registrable domain (thetileapp.com
+      -> life360.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://thetileapp.com', status: 301, note: 'declared website redirects to https://www.life360.com/ — a different registrable domain (thetileapp.com -> life360.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetileapp.png
 name: Tile (thetileapp)
-description: >-
-  Tile is a consumer Bluetooth-tracker company whose Tile Mate, Pro, Slim, and
-  Sticker devices help people find everyday items such as keys, wallets, bags,
-  and phones, backed by the crowd-sourced Tile "Find" network that anonymously
-  relays location when another Tile user passes a lost item. Founded in 2012,
-  Tile was acquired by Life360 in 2021 and now operates as part of the Life360
-  family-safety platform. Tile publishes consumer apps for iOS and Android and a
-  support and legal surface, but does not offer an official public developer API,
-  developer portal, or SDK; only third-party community libraries wrap its private
-  app API. This API Evangelist profile captures the company's public web and
-  security-program surface. Surfaced as a portfolio company of Slow Ventures.
+description: Tile is a consumer Bluetooth-tracker company whose Tile Mate, Pro, Slim, and Sticker devices help people
+  find everyday items such as keys, wallets, bags, and phones, backed by the crowd-sourced Tile "Find" network that
+  anonymously relays location when another Tile user passes a lost item. Founded in 2012, Tile was acquired by Life360
+  in 2021 and now operates as part of the Life360 family-safety platform. Tile publishes consumer apps for iOS and
+  Android and a support and legal surface, but does not offer an official public developer API, developer portal,
+  or SDK; only third-party community libraries wrap its private app API. This API Evangelist profile captures the
+  company's public web and security-program surface. Surfaced as a portfolio company of Slow Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/thetileapp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -66,7 +64,8 @@ common:
   url: https://apis.io/providers/life360/
   name: Life360
   x-relationship: acquired
-  x-evidence: "Founded in 2012, Tile was acquired by Life360 in 2021 and now operates as part of the Life360 family-safety platform."
+  x-evidence: Founded in 2012, Tile was acquired by Life360 in 2021 and now operates as part of the Life360 family-safety
+    platform.
 - type: VulnerabilityDisclosure
   url: security/thetileapp-vulnerability-disclosure.yml
 - type: Security
@@ -87,6 +86,8 @@ common:
   url: https://www.thetileapp.com/en-us/privacy-policy
 - type: Website
   url: https://thetileapp.com
+- type: Website
+  url: https://www.thetileapp.com/
 x-enrichment:
   date: '2026-07-21'
   status: minimal
