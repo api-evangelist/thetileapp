@@ -1,0 +1,14 @@
+{
+  "repo": "thetileapp",
+  "feeds": [
+    {
+      "source": "https://www.life360.com/press",
+      "feed_url": "https://www.life360.com/press",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
